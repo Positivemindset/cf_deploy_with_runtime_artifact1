@@ -3,7 +3,7 @@ steps:
   args:
   - functions
   - deploy
-  - hello_world3
+  - fetch_data_option3_cf
   - --source=.
   - --trigger-http
   - --runtime=python39
