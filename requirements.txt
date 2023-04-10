@@ -1,0 +1,2 @@
+--extra-index-url https://europe-python.pkg.dev/hostproject-379219/python39packages/simple
+requests==2.28.2

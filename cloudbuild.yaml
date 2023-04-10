@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - hello_world3
+  - --source=.
+  - --trigger-http
+  - --runtime=python39
+  - --allow-unauthenticated
+  - --set-env-vars=PIP_CONFIG_FILE=requirements.txt
